@@ -54,10 +54,6 @@ def custom_nlp_tokenizer(text):
     return tokenized_sentences
 
 if __name__ == '__main__':
-    text = '''
-I am masumi. What are
-you doing here?
-Are you
-good, Mr. Bingley!!'''
+    text = input("Enter text: ")
     result = custom_nlp_tokenizer(text)
     print("Tokenized text:", result)

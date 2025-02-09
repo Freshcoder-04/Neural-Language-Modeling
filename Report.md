@@ -73,7 +73,7 @@ where $N$ is the number of words in the sequence.
 
 In the directory ```Text_Files``` you can find .txt files in the following format:
 
-For every model $\{lm\_type\}\_\{set\}\_\{n\}\_\{corpus\}.txt$
+For every model {lm\_type}_{set}\_{n}\_{corpus}.txt
 
 where,
 

@@ -65,7 +65,8 @@ If you wish to train your own models:
 1. Import the notebook ```Training.ipynb``` to kaggle.
 2. Turn on the ```P100``` GPU 
 3. Click on Run all
-4. Then you will see an ```everything.zip``` file in ```/kaggle/working``` directory, download it (it may take some time).
+4. Then, after a while, you will see an ```everything.zip``` file in ```/kaggle/working``` directory, download it (it may take some time).
+5. Change the names of the files: lnn -> lstm, fnn -> ffnn. (Sorry for not implementing this)
 
 ## 5. Notes
 - Ensure all dependencies are installed before running the script.

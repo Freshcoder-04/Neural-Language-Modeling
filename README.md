@@ -21,18 +21,21 @@ python3 generator.py <lm_type> <corpus_path>
 ## 2. Example Usage
 
 ### 2.1 Running the FFNN Model
-```
-python3 generator.py -f ./corpus.txt 3
+```bash
+python3 generator.py -f ./corpora/external/{corpus}.txt 3
 ```
 ### 2.2 Running the RNN Model
-```
-python3 generator.py -r ./corpus.txt 3
+```bash
+python3 generator.py -r ./corpora/external/{corpus}.txt 3
 ```
 ### 2.3 Running the LSTM Model
 
 ```bash
-python3 generator.py -l ./corpus.txt 3
+python3 generator.py -l ./corpora/external/{corpus}.txt 3
 ```
+
+where corpora can be ```Pride and Prejudice - Jane Austen``` or ```Ulysses - James Joyce```
+
 ---
 
 ## 3. Output Format
@@ -42,7 +45,7 @@ python3 generator.py -l ./corpus.txt 3
 ### 3.1 Example Execution
 
 ```bash
-python3 generator.py -f ./corpus.txt 3
+python3 generator.py -f ./corpora/external/{corpus}.txt 3
 ```
 **User Input:**
 ```
